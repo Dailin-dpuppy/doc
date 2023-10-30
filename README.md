@@ -21,7 +21,8 @@ Kaniko 是一个开源的容器化构建工具，由于 kaniko 不依赖于 Dock
 这里有几个已知问题需要注意
 1. kaniko 不支持构建 Windows 容器。
 2. kaniko 不支持 v1 Registry API。(由于其不安全性当前基本都是使用V2协议, 例如 Harbor)
-3. 不支持在官方 kaniko 镜像以外的任何 Docker 镜像中运行 kaniko（这包括将 kaniko 可执行文件从官方镜像复制到另一个镜像中）
+3. 不支持在官方 kaniko 镜像以外的任何 Docker 镜像中运行 kaniko（这包括将 kaniko 可执行文件从官方镜像复制到另一个镜像中）。
+
 这里推荐一篇kaniko的[文档](https://juejin.cn/post/7217665415710081081)参考
 
 ## Helm 简介
